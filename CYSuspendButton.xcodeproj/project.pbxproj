@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F038857E1ED7B63800CA5BDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F038857D1ED7B63800CA5BDC /* main.m */; };
+		F03885811ED7B63800CA5BDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F03885801ED7B63800CA5BDC /* AppDelegate.m */; };
+		F03885841ED7B63800CA5BDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03885831ED7B63800CA5BDC /* ViewController.m */; };
+		F03885871ED7B63800CA5BDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03885851ED7B63800CA5BDC /* Main.storyboard */; };
+		F03885891ED7B63800CA5BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03885881ED7B63800CA5BDC /* Assets.xcassets */; };
+		F038858C1ED7B63800CA5BDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F038858A1ED7B63800CA5BDC /* LaunchScreen.storyboard */; };
+		F03885951ED7B64B00CA5BDC /* CYSuspendButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F03885941ED7B64B00CA5BDC /* CYSuspendButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F03885791ED7B63800CA5BDC /* CYSuspendButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYSuspendButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F038857D1ED7B63800CA5BDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F038857F1ED7B63800CA5BDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F03885801ED7B63800CA5BDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F03885821ED7B63800CA5BDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F03885831ED7B63800CA5BDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F03885861ED7B63800CA5BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F03885881ED7B63800CA5BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F038858B1ED7B63800CA5BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F038858D1ED7B63800CA5BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03885931ED7B64B00CA5BDC /* CYSuspendButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYSuspendButton.h; sourceTree = "<group>"; };
+		F03885941ED7B64B00CA5BDC /* CYSuspendButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYSuspendButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F03885761ED7B63800CA5BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F03885701ED7B63800CA5BDC = {
+			isa = PBXGroup;
+			children = (
+				F038857B1ED7B63800CA5BDC /* CYSuspendButton */,
+				F038857A1ED7B63800CA5BDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F038857A1ED7B63800CA5BDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F03885791ED7B63800CA5BDC /* CYSuspendButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F038857B1ED7B63800CA5BDC /* CYSuspendButton */ = {
+			isa = PBXGroup;
+			children = (
+				F03885931ED7B64B00CA5BDC /* CYSuspendButton.h */,
+				F03885941ED7B64B00CA5BDC /* CYSuspendButton.m */,
+				F038857F1ED7B63800CA5BDC /* AppDelegate.h */,
+				F03885801ED7B63800CA5BDC /* AppDelegate.m */,
+				F03885821ED7B63800CA5BDC /* ViewController.h */,
+				F03885831ED7B63800CA5BDC /* ViewController.m */,
+				F03885851ED7B63800CA5BDC /* Main.storyboard */,
+				F03885881ED7B63800CA5BDC /* Assets.xcassets */,
+				F038858A1ED7B63800CA5BDC /* LaunchScreen.storyboard */,
+				F038858D1ED7B63800CA5BDC /* Info.plist */,
+				F038857C1ED7B63800CA5BDC /* Supporting Files */,
+			);
+			path = CYSuspendButton;
+			sourceTree = "<group>";
+		};
+		F038857C1ED7B63800CA5BDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F038857D1ED7B63800CA5BDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F03885781ED7B63800CA5BDC /* CYSuspendButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03885901ED7B63800CA5BDC /* Build configuration list for PBXNativeTarget "CYSuspendButton" */;
+			buildPhases = (
+				F03885751ED7B63800CA5BDC /* Sources */,
+				F03885761ED7B63800CA5BDC /* Frameworks */,
+				F03885771ED7B63800CA5BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYSuspendButton;
+			productName = CYSuspendButton;
+			productReference = F03885791ED7B63800CA5BDC /* CYSuspendButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F03885711ED7B63800CA5BDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YULING;
+				TargetAttributes = {
+					F03885781ED7B63800CA5BDC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F03885741ED7B63800CA5BDC /* Build configuration list for PBXProject "CYSuspendButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F03885701ED7B63800CA5BDC;
+			productRefGroup = F038857A1ED7B63800CA5BDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F03885781ED7B63800CA5BDC /* CYSuspendButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F03885771ED7B63800CA5BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F038858C1ED7B63800CA5BDC /* LaunchScreen.storyboard in Resources */,
+				F03885891ED7B63800CA5BDC /* Assets.xcassets in Resources */,
+				F03885871ED7B63800CA5BDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F03885751ED7B63800CA5BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03885841ED7B63800CA5BDC /* ViewController.m in Sources */,
+				F03885811ED7B63800CA5BDC /* AppDelegate.m in Sources */,
+				F03885951ED7B64B00CA5BDC /* CYSuspendButton.m in Sources */,
+				F038857E1ED7B63800CA5BDC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F03885851ED7B63800CA5BDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F03885861ED7B63800CA5BDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F038858A1ED7B63800CA5BDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F038858B1ED7B63800CA5BDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F038858E1ED7B63800CA5BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F038858F1ED7B63800CA5BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F03885911ED7B63800CA5BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYSuspendButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YULING.CYSuspendButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F03885921ED7B63800CA5BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYSuspendButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YULING.CYSuspendButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F03885741ED7B63800CA5BDC /* Build configuration list for PBXProject "CYSuspendButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F038858E1ED7B63800CA5BDC /* Debug */,
+				F038858F1ED7B63800CA5BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F03885901ED7B63800CA5BDC /* Build configuration list for PBXNativeTarget "CYSuspendButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03885911ED7B63800CA5BDC /* Debug */,
+				F03885921ED7B63800CA5BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F03885711ED7B63800CA5BDC /* Project object */;
+}
